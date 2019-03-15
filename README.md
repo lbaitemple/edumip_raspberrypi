@@ -1,6 +1,9 @@
 
 # edumip_raspberrypi
 
+
+https://github.com/WiringPi/WiringPi-Python
+
 ```
 sudo apt-get install python-pip python-smbus
 sudo pip install -r requirements.txt 
