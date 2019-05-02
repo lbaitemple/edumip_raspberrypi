@@ -14,10 +14,13 @@ gpio readall
 
 ```
 
-for pi zero w
+for pi zero w . (http://wiringpi.com/download-and-install/)
 ```
 
 sudo apt-get install raspi-gpio
 gpio -v
 
+cd /tmp
+wget https://lion.drogon.net/wiringpi-2.50-1.deb
+sudo dpkg -i wiringpi-2.50-1.deb
 ```
